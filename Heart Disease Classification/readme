@@ -1,0 +1,12 @@
+Project - Heart disease prediction/classification
+AIM - we are give a dataset by a heart doctor based on his visitors. It contains various info about the visitors like age,gender,cholestrol levels etc. we have to create a model that assists the doctor if a visitor has heart disease or not.
+
+Process - 
+Data preprocessing - removing duplicates , null vals
+EDA - univariate analysis , bivariate [pairplot] , correlation heatmap
+Feature Engineering - feature importance - extratrees regressor
+Model Building - xgboost classifiers , 
+Hyperparameter tuning - gridsearchCV
+
+Output - created xgboost model with 83% accuracy.
+
