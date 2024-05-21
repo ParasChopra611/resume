@@ -1,0 +1,16 @@
+Project - bike sharing prediction 
+Tags - data preprocessing, EDA, encoding, regression, hyperparameter tuning
+
+AIM - We need to create a system which can predict Bike rental demand based on users behaviour.
+
+Process
+Importing libraries - 
+Data cleaning/wrangling - removing duplicates,dealing with null vals, splitting date column into 3 - date,month,year. Change month vals to Jan,feb etc.
+EDA - histograms, pie charts, bar charts, correlation heatmap,pairplot
+Model implementation - dummy encoding, train test split,
+trying out models- linear reg, ridge, lasso, svr,decision tree,  xgboost regressor
+Xgboost regressor works best - 
+Hyperparameter tuning - randomized search cv 
+
+Output - implemented xgboost regressor with r2 score of 88.6%
+
